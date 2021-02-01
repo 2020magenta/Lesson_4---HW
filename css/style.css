@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
+
+@font-face {
+	font-family: "Industry-Demi";
+	src: url ("../fonts/Industry-Demi.woff2") format("woff2"), url ("../fonts/Industry-Demi.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Industry";
+	src: url ("../fonts/Industry-BlackItalic.woff2 ") format ("woff2"),
+		url ("../fonts/Industry-BlackItalic.woff") format ("woff");
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Parker";
+	src: url("Parker.woff2") format("woff2"), url("Parker.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "B52";
+	src: url("B52.woff2") format("woff2"), url("B52.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Realistica";
+	src: url("Realistica.eot");
+	src: local("Realistica"), url("Realistica.eot?#iefix") format("embedded-opentype"),
+		url("Realistica.woff2") format("woff2"), url("Realistica.woff") format("woff"),
+		url("Realistica.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*Стили обнуления*/
+*, *: : before, *: : after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+}
+/*----------------------------*/
+.header .image {
+	text-align: center;
+}
+
+h5 {
+	font-family: "Industry_Demi", monospace;
+	font-size: 20px;
+	font-weight: 900;
+	letter-spacing: 30px;
+	color: lightsalmon;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+.subtitle {
+	font-family: B52, monospace;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	color: maroon;
+	font-size: 30px;
+	font-weight: 900;
+	text-shadow: 2px 2px 2px orange;
+}
+.main > p {
+	font-family: B52, monospace;
+	font-size: 28px;
+}
+h1 {
+	font-family: Realistica, fantasy;
+	font-size: 50px;
+	font-weight: 700;
+	color: rgb(65, 180, 142);
+	text-shadow: -5px -4px 1px rgba(127, 255, 212, 0.89);
+	text-align: center;
+	letter-spacing: 20px;
+	text-transform: uppercase;
+}
+
+.block__industry-demi {
+	font-family: "Industry-Demi" sans-serif;
+	font-size: 25px;
+	color: springgreen;
+	text-align: justify;
+}
+.block__parker {
+	font-family: "Parker", fantasy;
+	font-size: 20px;
+	line-height: 35px;
+	text-shadow: 3px 3px 3px rgb(182, 163, 204);
+}
+.block__b52 {
+	font-family: B52, monospace;
+	font-size: 32px;
+	line-height: 18px;
+	color: saddlebrown;
+}
+
+.block__industry {
+	font-family: Industry, sans-serif;
+	color: violet;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+
+.block__realistica {
+	font-family: Realistica, fantasy;
+	font-size: 20px;
+	word-spacing: 13px;
+	line-height: 40px;
+	color: royalblue;
+	font-style: italic;
+}
+h2 {
+	font-family: B52, monospace;
+	text-decoration: line-through underline overline;
+	text-transform: uppercase;
+	font-size: 45px;
+	color: tomato;
+	font-weight: bold;
+	text-align: end;
+}
+h3 {
+	font-family: Industry, sans-serif;
+	font-size: 50px;
+	color: yellow;
+	text-shadow: -2px -5px 10px rgb(243, 9, 9), 2px 8px 10px rgb(18, 209, 209);
+}
+.part__one {
+	font-family: "Potta One", cursive;
+	font-size: 30px;
+	word-spacing: 18px;
+	text-align: right;
+	text-shadow: 1px 1px 10px yellowgreen;
+}
+
+.part__two {
+	font-family: "Parker", fantasy;
+	font-size: 18px;
+	font-style: oblique;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.185);
+}
+
+.footer {
+	text-align: center;
+	white-space: normal;
+}
